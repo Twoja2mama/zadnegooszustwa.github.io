@@ -1,0 +1,45 @@
+*{
+  font-family: 'Roboto',sans-serif;
+   margin: 0;
+   padding:0 ;
+   box-sizing: border-box; 
+}
+body {
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+
+background-color: black;
+background-position:center center;
+background-size: cover;
+text-align: center; 
+}
+.conteiner {
+background-color: orange;
+width: auto;
+padding: 15px;
+border: solid 2px #fff;
+border-radius: 5px;
+box-shadow: 0 0 10px #fff;
+color: cyan;
+}
+#header {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+#text-area {
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: justify;
+}
+button{
+    background-color: blue;
+    color: aqua;
+    font-size: 1.5rem;
+    padding: auto;
+    margin-top:20px ;
+    border-radius: 5px;
+    border: none;
+}
